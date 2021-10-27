@@ -1,0 +1,277 @@
+body{
+    background-image:url(/marion-botella-rII0mAgBHpY-unsplash.jpg);
+}
+
+.todo-input{
+    border-radius: 30px;
+    margin-left: 15px;
+    margin-top: 25px;
+    min-height: 100px;    
+
+}
+.text-box{
+    border-radius: 30px;
+    
+}
+
+.add-todo-btn{
+    border-radius: 30px;
+    background-color: #d5e68d;
+    color:black;
+    font: bold 10px;
+    transition-duration: 0,4s !important;
+    transition-timing-function: ease-in-out !important;
+      display: block;
+     margin: 0 auto;   
+
+}
+
+.add-todo-btn:hover{
+    background-color: chocolate;
+    font-size: 30px;
+}
+
+button{
+    border-radius: 30px !important;
+    background-color: #d5e68d;
+    color:black;
+    font: bold 10px;
+    transition-duration: 0,4s !important;
+    transition-timing-function: ease-in-out !important;
+
+}
+
+button:hover{
+    background-color: chocolate;
+    font-size: 30px;
+}
+
+.navbar{
+height: 125px;
+left: 0px;
+top: 0px;
+
+background: rgba(0, 0, 0, 0.55);
+text-align: center;
+
+}
+
+.title{
+font-family:sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+color: blanchedalmond;
+margin:auto;
+
+
+}
+h2{
+    font-family:sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+color: blanchedalmond;
+margin-top:5px !important;
+}
+
+h5{
+    color: blanchedalmond;
+    text-align: center;
+
+}
+p{
+font-family:sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+color: blanchedalmond;
+
+
+}
+
+.background-checkboxes{
+height: 150px;
+background: rgba(0, 0, 0, 0.55);
+border-radius: 30px;
+margin-top: 15px;
+}
+
+.todo-board{
+    
+    height: 550px;
+background: rgba(0, 0, 0, 0.55);
+border-radius: 30px;
+margin-top: 15px;
+}
+
+.todo{
+margin-top: 15px;
+min-height: 200px;       
+height: auto;
+background: rgba(0, 0, 0, 0.55);
+
+border-radius: 30px;
+}
+
+.todo-item{
+    margin: 5px;
+    padding: 0;    
+    height: 200px;
+    display: inline;
+    color: blanchedalmond;
+    resize: horizontal;
+    word-wrap: break-word;   
+
+}
+
+.done-checkbox{
+    margin: 5px;
+    padding: 0;
+    display: inline;
+}
+.edit-btn{
+    margin: 5px;
+    color: blanchedalmond;
+    
+}
+.edit-input{
+        margin: 5px;
+    padding: 0;
+    display: inline;
+    color: black;
+
+}
+.edit-btn:hover{
+    color:chocolate;
+}
+.trash-btn{
+    color: blanchedalmond;
+    margin-left: 5px;
+}
+
+.trash-btn:hover{
+    color: red;
+}
+.strike{
+    text-decoration: line-through;
+}
+
+input[type="checkbox"]{
+    display: none;
+}
+
+
+#checkbox{
+  background:none;
+  display:inline-block;
+  padding:5px 10px;
+  border-radius:2px;
+  position:relative;
+  cursor:pointer;
+}
+
+#urgentCheckBox{
+    background:none;
+  display:inline-block;
+  padding:5px 10px;
+  border-radius:2px;
+  position:relative;
+  cursor:pointer;
+  color:blanchedalmond;
+  font-size: 40px;
+
+}
+
+#checkbox-element{
+  display:block;
+  position:absolute;
+  left:0;
+  top:0;
+  width:100%;
+  height:100%;
+  z-index:99999;
+  opacity:0;
+}
+
+#checkbox>input[type='checkbox']+i{
+    font-size: 40px;
+  color:blanchedalmond}
+
+#checkbox>input[type='checkbox']:checked+i{
+  color:green
+}
+#urgentCheckBox>input[type='checkbox']:checked+i{
+  color:red; 
+  
+}
+
+textarea{
+    max-width: 100%;
+    text-align: center;
+}
+
+.urgentBoxSize{
+    font-size: 30px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: black !important;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50% !important; /* Could be more or less, depending on screen size */
+  border-radius: 30px !important;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width:992px){
+    .modal-content{
+        width:100% !important;
+
+    }
+
+}
+.movieTitle{
+    width: 100%;
+    word-wrap: break-word;
+    font-size: 5vmin;
+    color: blanchedalmond;
+    
+}
+
+
+
+
+
+
